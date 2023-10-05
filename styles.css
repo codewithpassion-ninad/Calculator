@@ -1,0 +1,33 @@
+.calculator
+{
+    width: 350px;
+    padding: 3%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgb(2, 104, 151);
+}
+
+#display
+{
+    width: 80%;
+}
+.keys
+{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin-top: 10px;
+}
+
+button:hover
+{
+    background-color: rgb(34, 84, 250);
+}
+
+button
+{
+    width: 70px;
+    height: 70px;
+    font-size: 24px;
+    background-color: aqua;
+}
